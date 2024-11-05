@@ -39,7 +39,7 @@
                         classDayTime: "Mon. Wed. Fri 10:00am-10:50am",
                         display: function () {
                             let x = document.getElementById("class1");
-                            x.innerHTML = this.classNum + ":" + "<br>" + this.className + this.classDayTime;
+                            x.innerHTML = this.classNum + ":" + "<br>" + this.className  + "<br>" + this.classDayTime;
                         }
                     }; 
                     let display = class1.display.bind(class1);
@@ -55,7 +55,7 @@
                         classDayTime: "Mon. Wed. Fri 1:00pm-1:50pm",
                         display: function () {
                             let x = document.getElementById("class2");
-                            x.innerHTML = this.classNum + ":" + "<br>" + this.className + this.classDayTime;
+                            x.innerHTML = this.classNum + ":" + "<br>" + this.className  + "<br>" + this.classDayTime;
                         }
                     }; 
                     let display2 = class2.display.bind(class2);
@@ -71,7 +71,7 @@
                         classDayTime: "Tues. Thurs 10:00am-11:45am",
                         display: function () {
                             let x = document.getElementById("class3");
-                            x.innerHTML = this.classNum + ":" + "<br>" + this.className + this.classDayTime;
+                            x.innerHTML = this.classNum + ":" + "<br>" + this.className  + "<br>" + this.classDayTime;
                         }
                     }; 
                     let display3 = class3.display.bind(class3);
@@ -87,7 +87,7 @@
                         classDayTime: "Tues. Thurs 12:00pm-1:15am",
                         display: function () {
                             let x = document.getElementById("class4");
-                            x.innerHTML = this.classNum + ":" + "<br>" + this.className + this.classDayTime;
+                            x.innerHTML = this.classNum + ":" + "<br>" + this.className  + "<br>" + this.classDayTime;
                         }
                     }; 
                     let display4 = class4.display.bind(class4);
