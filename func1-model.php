@@ -20,7 +20,7 @@
     </div>
     </div>
     <div class="card">
-        <div class="card-body">
+        <div class="card-body center-text">
          <p id="displayHomework"></p>
             <script>
         function displayHomework() {
