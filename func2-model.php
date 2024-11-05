@@ -84,7 +84,7 @@
                     const class4 = {
                         classNum: "Class 4",
                         className: "MIS 3033",
-                        classDayTime: "Tues. Thurs 12:00pm-1:15am",
+                        classDayTime: "Tues. Thurs 12:00pm-1:15pm",
                         display: function () {
                             let x = document.getElementById("class4");
                             x.innerHTML = this.classNum + ":" + "<br>" + this.className  + "<br>" + this.classDayTime;
