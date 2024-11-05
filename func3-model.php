@@ -14,7 +14,7 @@
       }
 
       let x = myEquation(12, 15, 3); 
-      document.getElementById("x").innerText = "Result: " + x; // Display the result inside the <p> element
+      document.getElementById("x").innerText = x; // Display the result inside the <p> element
       </script>
       </div>
     </div>
