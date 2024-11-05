@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <title>Function 1</title>
+      <style>
+        .center-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%; /* Ensures content is vertically centered */
+            padding: 20px; /* Adds some padding around the text */
+        }
+    </style>
 </head>
 <body> 
     <h1>Function 1</h1>
     <div class="card">
-    <div class="card text-bg-primary mb-3">
+    <div class="card text-bg-primary mb-3 center-text">
         This week's assignment -
     </div>
     </div>
