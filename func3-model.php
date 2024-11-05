@@ -13,7 +13,8 @@
       return (a * b) * c;
       }
 
-      let x = myEquation(12, 15, 3);     
+      let x = myEquation(12, 15, 3); 
+      myEquation();
       </script>
       </div>
     </div>
