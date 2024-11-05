@@ -38,10 +38,10 @@
                     setTimeout(display, 2000);
                 </script>
             </div>
-            <div class="col">
+            <div class="col border-column">
                 One of three columns
             </div>
-            <div class="col">
+            <div class="col border-column">
                 One of three columns
             </div>
         </div>
