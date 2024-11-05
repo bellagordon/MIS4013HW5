@@ -3,7 +3,7 @@
 <head>
     <title>Function 1</title>
 </head>
-<body>
+<body> 
     <h1>Function 1</h1>
     <div class="card">
         <div class="card-body">
@@ -29,6 +29,5 @@
         displayHomework();
     </script>        
 </div>
-   
-</body>
+</body>   
 </html>
