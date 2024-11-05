@@ -10,7 +10,22 @@
             Course Name
         </div>
     </div>
-    <script src="func1.js"></script> 
+    <script>
+        // JavaScript function to display "John Doe"
+        function displayName() {
+            const person = {
+                firstName: "John",
+                lastName: "Doe",
+                fullName: function () {
+                    return this.firstName + " " + this.lastName;
+                }
+            };
+            document.getElementById("displayName").innerText = person.fullName();
+        }
+
+        // Execute the function
+        displayName();
+    </script>
 </body>
 </html>
 
