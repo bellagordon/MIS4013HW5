@@ -7,14 +7,13 @@
   <div class="col">
     <div class="collapse multi-collapse" id="multiCollapseExample1">
       <div class="card card-body">
-        <p id="myEquation"></p>
+        <p id="x"></p>
         <script>
       function myEquation(a, b, c) {
       return (a * b) * c;
       }
 
       let x = myEquation(12, 15, 3); 
-      myEquation();
       </script>
       </div>
     </div>
