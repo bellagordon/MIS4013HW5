@@ -32,7 +32,7 @@
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col border-column">
-                <p class-"text-style" id="class1"></p> 
+                <p class="text-style" id="class1"></p> 
                 <script>
                     const class1 = {
                         className: "MIS 4663",
