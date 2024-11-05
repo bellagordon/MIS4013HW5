@@ -6,7 +6,7 @@
 <body> 
     <h1>Function 1</h1>
     <div class="card">
-        <div class="card-body">
+        <div class="card-body text-body-secondary">
             Course Name
         </div>
     </div>
