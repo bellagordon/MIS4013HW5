@@ -17,6 +17,14 @@
             padding: 20px; /* Optional: Add some padding inside the column */
             border-radius: 5px; /* Optional: Add rounded corners */
         }
+         
+        }
+
+        /* Common text style for all demo text */
+        .text-style {
+            font-size: 10em; /* Change this value to adjust the size */
+            font-weight: bold; /* Make the text bold */
+        }
     </style>
 </head>
 <body>
@@ -24,7 +32,7 @@
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col border-column">
-                <p id="class1"></p> 
+                <p class-"text-style" id="class1"></p> 
                 <script>
                     const class1 = {
                         className: "MIS 4663",
