@@ -10,8 +10,10 @@
             Course Name
         </div>
     </div>
-    <p id="displayCourse"></p>
-    <script>
+    <div class="card">
+        <div class="card-body">
+         <p id="displayCourse"></p>
+            <script>
         function displayHomework() {
             const assn = {
                 assnTitle: "Practice with Javascript",
@@ -25,6 +27,8 @@
 
         // Execute the function
         displayHomework();
-    </script>
+    </script>        
+</div>
+   
 </body>
 </html>
