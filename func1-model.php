@@ -12,7 +12,7 @@
     </div>
     <div class="card">
         <div class="card-body">
-         <p id="displayCourse"></p>
+         <p id="displayHomework"></p>
             <script>
         function displayHomework() {
             const assn = {
