@@ -60,7 +60,19 @@
                 </script>            
             </div>
             <div class="col border-column">
-                One of three columns
+                <p class="text-style" id="class3"></p> 
+                <script>
+                    const class3 = {
+                        className: "MIS 2113",
+                        classDayTime: "Tues. Thurs 10:00am-11:45am",
+                        display: function () {
+                            let x = document.getElementById("class3");
+                            x.innerHTML = this.className + "<br>" + this.classDayTime; // Added line break for clarity
+                        }
+                    }; 
+                    let display3 = class3.display.bind(class3);
+                    setTimeout(display3, 4000); // Ensures it shows after Function 1
+                </script>               
             </div>
         </div>
     </div>
