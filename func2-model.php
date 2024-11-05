@@ -1,10 +1,8 @@
-<php>
-        include "view-header.php";
-</php>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Function 1</title>
+    <title>Function 2</title>
      <style>
         /* Basic styling for the container and text alignment */
         .container {
