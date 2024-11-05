@@ -23,7 +23,7 @@
     <h1>Function 1</h1>
     <div class="container text-center">
         <div class="row align-items-start">
-            <div class="col">
+            <div class="col border-column">
                 <p id="class1"></p> 
                 <script>
                     const class1 = {
