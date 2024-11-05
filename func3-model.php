@@ -7,7 +7,7 @@
     <style>
         /* Make the text larger and center it */
         .card-body {
-            font-size: 5em; /* Adjust the size as needed */
+            font-size: 3em; /* Adjust the size as needed */
             display: flex;
             justify-content: center; /* Horizontally center the text */
             align-items: center; /* Vertically center the text */
