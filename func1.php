@@ -10,7 +10,7 @@
             Course Name
         </div>
     </div>
-    <p id="displayName"></p>
+    <p id="displayCourse"></p>
     <script>
         // JavaScript function to display "John Doe"
         function displayCourse() {
@@ -25,7 +25,7 @@
         }
 
         // Execute the function
-        displayName();
+        displayCourse();
     </script>
 </body>
 </html>
