@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Function 1";
+$pageTitle = "Function 2";
 include "view-header.php";
-include "func1-model.php";
+include "func2-model.php";
 include "view-footer.php";
 ?>
