@@ -20,7 +20,7 @@
 
         /* Common text style for all demo text */
         .text-style {
-            font-size: 5em; /* Change this value to adjust the size */
+            font-size: 2.5em; /* Change this value to adjust the size */
             font-weight: bold; /* Make the text bold */
         }
     </style>
