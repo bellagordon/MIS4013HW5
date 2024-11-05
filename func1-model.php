@@ -12,20 +12,19 @@
     </div>
     <p id="displayCourse"></p>
     <script>
-        // JavaScript function to display "John Doe"
-        function displayCourse() {
-            const course = {
-                courseTitle: "E-Commerce Web Design",
-                classNumber: "MIS 4013",
-                fullCourseName: function () {
-                    return this.courseTitle + "," +  " " + this.classNumber;
+        function displayHomework() {
+            const assn = {
+                assnTitle: "Practice with Javascript",
+                assnsNumber: "Homework 5",
+                fullAssnName: function () {
+                    return this.courseTitle + ":" +  " " + this.classNumber;
                 }
             };
-            document.getElementById("displayCourse").innerText = course.fullCourseName();
+            document.getElementById("displayHomework").innerText = assn.fullAssnName();
         }
 
         // Execute the function
-        displayCourse();
+        displayHomework();
     </script>
 </body>
 </html>
