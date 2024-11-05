@@ -6,7 +6,7 @@
 <body> 
     <h1>Function 1</h1>
     <div class="card">
-    <div class="card text-bg-primary mb-3">
+    <div class="card text-bg-primary mb-3" style="max-width: 10rem;">
         This week's assignment -
     </div>
     </div>
