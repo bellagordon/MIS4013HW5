@@ -19,7 +19,7 @@
                 assnTitle: "Practice with Javascript",
                 assnsNumber: "Homework 5",
                 fullAssnName: function () {
-                    return this.courseTitle + ":" +  " " + this.classNumber;
+                    return this.assnTitle + ":" +  " " + this.assnNumber;
                 }
             };
             document.getElementById("displayHomework").innerText = assn.fullAssnName();
