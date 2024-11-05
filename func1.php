@@ -10,6 +10,7 @@
             Course Name
         </div>
     </div>
+    <p id="displayName"></p>
     <script>
         // JavaScript function to display "John Doe"
         function displayName() {
