@@ -4,6 +4,7 @@
     <title>Function 1</title>
       <style>
         .center-text {
+            font-size: 5em;
             display: flex;
             align-items: center;
             justify-content: center;
