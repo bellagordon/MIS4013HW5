@@ -33,11 +33,12 @@
                 <p class="text-style" id="class1"></p> 
                 <script>
                     const class1 = {
+                        classNum: "Class 1",
                         className: "MIS 4663",
                         classDayTime: "Mon. Wed. Fri 10:00am-10:50am",
                         display: function () {
                             let x = document.getElementById("class1");
-                            x.innerHTML = this.className + "<br>" + this.classDayTime;
+                            x.innerHTML = this.classNum + ":" + "<br>" + this.className + this.classDayTime;
                         }
                     }; 
                     let display = class1.display.bind(class1);
