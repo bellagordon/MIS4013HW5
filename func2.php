@@ -17,8 +17,6 @@
             padding: 20px; /* Optional: Add some padding inside the column */
             border-radius: 5px; /* Optional: Add rounded corners */
         }
-         
-        }
 
         /* Common text style for all demo text */
         .text-style {
