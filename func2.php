@@ -71,7 +71,22 @@
                         }
                     }; 
                     let display3 = class3.display.bind(class3);
-                    setTimeout(display3, 4000); // Ensures it shows after Function 1
+                    setTimeout(display3, 6000); // Ensures it shows after Function 1
+                </script>               
+            </div>
+          <div class="col border-column">
+                <p class="text-style" id="class4"></p> 
+                <script>
+                    const class4 = {
+                        className: "MIS 3033",
+                        classDayTime: "Tues. Thurs 12:00pm-1:15am",
+                        display: function () {
+                            let x = document.getElementById("class4");
+                            x.innerHTML = this.className + "<br>" + this.classDayTime; // Added line break for clarity
+                        }
+                    }; 
+                    let display4 = class4.display.bind(class4);
+                    setTimeout(display4, 8000); // Ensures it shows after Function 1
                 </script>               
             </div>
         </div>
