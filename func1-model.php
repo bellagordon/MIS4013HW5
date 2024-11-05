@@ -17,7 +17,7 @@
         function displayHomework() {
             const assn = {
                 assnTitle: "Practice with Javascript",
-                assnsNumber: "Homework 5",
+                assnNumber: "Homework 5",
                 fullAssnName: function () {
                     return this.assnTitle + ":" +  " " + this.assnNumber;
                 }
