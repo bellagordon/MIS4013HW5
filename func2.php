@@ -8,21 +8,18 @@
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col">
-                <!-- Add an element with the ID "demo" for the output -->
-                <p id="demo"></p> <!-- This will hold the output "John Doe" -->
+                <p id="class1"></p> 
                 <script>
-                    const person = {
-                        firstName: "John",
-                        lastName: "Doe",
+                    const class1 = {
+                        className: "MIS 4663",
+                        classDayTime: "Mon. Wed. Fri 10:00am-10:50am",
                         display: function () {
-                            let x = document.getElementById("demo");
-                            x.innerHTML = this.firstName + " " + this.lastName;
+                            let x = document.getElementById("class1");
+                            x.innerHTML = this.className + " " + this.classDayTime;
                         }
-                    };
-
-                    // Bind the display method and call it after 3 seconds
-                    let display = person.display.bind(person);
-                    setTimeout(display, 3000);
+                    }; 
+                    let display = class1.display.bind(class1);
+                    setTimeout(display, 2000);
                 </script>
             </div>
             <div class="col">
