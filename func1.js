@@ -6,5 +6,5 @@ const person = {
     }
 }
 
-// Display "John Doe" on the webpage
-document.getElementById("displayName").innerText = person.fullName();
+// Log "John Doe" to the console
+console.log(person.fullName());
