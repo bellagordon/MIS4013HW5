@@ -37,7 +37,7 @@
                         classDayTime: "Mon. Wed. Fri 10:00am-10:50am",
                         display: function () {
                             let x = document.getElementById("class1");
-                            x.innerHTML = this.className + " " + this.classDayTime;
+                            x.innerHTML = this.className + "<br>" + this.classDayTime;
                         }
                     }; 
                     let display = class1.display.bind(class1);
