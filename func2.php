@@ -44,19 +44,19 @@
                     setTimeout(display, 2000);
                 </script>
             </div>
-            <div class="col border-column">
-             <p class="text-style" id="class2"></p> 
+           <div class="col border-column">
+                <p class="text-style" id="class2"></p> 
                 <script>
                     const class2 = {
                         className: "MIS 4013",
                         classDayTime: "Mon. Wed. Fri 1:00pm-1:50pm",
                         display: function () {
                             let x = document.getElementById("class2");
-                            x.innerHTML = this.className + " " + this.classDayTime;
+                            x.innerHTML = this.className + "<br>" + this.classDayTime; // Added line break for clarity
                         }
                     }; 
-                    let display = class2.display.bind(class2);
-                    setTimeout(display, 4000);
+                    let display2 = class2.display.bind(class2);
+                    setTimeout(display2, 4000); // Ensures it shows after Function 1
                 </script>            
             </div>
             <div class="col border-column">
