@@ -13,15 +13,15 @@
     <p id="displayName"></p>
     <script>
         // JavaScript function to display "John Doe"
-        function displayName() {
-            const person = {
-                firstName: "John",
-                lastName: "Doe",
-                fullName: function () {
-                    return this.firstName + " " + this.lastName;
+        function displayCourse() {
+            const course = {
+                courseTitle: "E-Commerce Web Design",
+                classNumber: "MIS 4013",
+                fullCourseName: function () {
+                    return this.courseTitle + "," +  " " + this.classNumber;
                 }
             };
-            document.getElementById("displayName").innerText = person.fullName();
+            document.getElementById("displayCourse").innerText = course.fullCourseName();
         }
 
         // Execute the function
