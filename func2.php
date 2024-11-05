@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
     <title>Function 1</title>
+     <style>
+        /* Basic styling for the container and text alignment */
+        .container {
+            margin: 20px;
+        }
+        .text-center {
+            text-align: center;
+        }
+
+        /* Add styles for the columns */
+        .border-column {
+            border: 2px solid black; /* Black border */
+            padding: 20px; /* Optional: Add some padding inside the column */
+            border-radius: 5px; /* Optional: Add rounded corners */
+        }
+    </style>
 </head>
 <body>
     <h1>Function 1</h1>
