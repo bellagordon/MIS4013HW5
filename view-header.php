@@ -24,7 +24,8 @@
         </li>
           <li class="nav-item">
           <a class="nav-link" href="func2.php">Function 2</a>
-        </li>  <li class="nav-item">
+        </li>  
+        <li class="nav-item">
           <a class="nav-link" href="func3.php">Function 3</a>
            <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="func4.php">Function 4</a>
