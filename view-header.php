@@ -20,7 +20,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="func1.js">Function 1</a>
+          <a class="nav-link" href="func1.php">Function 1</a>
         </li>
           <li class="nav-item">
           <a class="nav-link" href="func2.php">Function 2</a>
