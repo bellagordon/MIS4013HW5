@@ -4,15 +4,13 @@
     <title>Function 1</title>
 </head>
 <body>
-    <div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Homework Assignment</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-         <p id="displayHomework"></p>
+    <h1>Function 1</h1>
+    <div class="card">
+        <div class="card-body">
+            Course Name
+        </div>
+    </div>
+    <p id="displayCourse"></p>
     <script>
         function displayHomework() {
             const assn = {
@@ -28,14 +26,5 @@
         // Execute the function
         displayHomework();
     </script>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Function worked!</button>
-      </div>
-    </div>
-  </div>
-</div>
-   
 </body>
 </html>
-
