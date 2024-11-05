@@ -1,10 +1,10 @@
 const person = {
-  firstName:"John",
-  lastName: "Doe",
-  fullName: function () {
-    return this.firstName + " " + this.lastName;
-  }
+    firstName: "John",
+    lastName: "Doe",
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
 }
 
-// This will return "John Doe":
-person.fullName();  
+// Display "John Doe" on the webpage
+document.getElementById("displayName").innerText = person.fullName();
