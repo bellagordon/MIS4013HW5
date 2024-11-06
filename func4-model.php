@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <h1>Function 4</h1>
+  <h1>Random Number Generator</h1>
 </head>
   
 <body>
