@@ -2,7 +2,7 @@
 <html lang="en"> 
 
 <head>
-  <title>Recursive Letter Removal</title>
+  <title>Function 5</title>
 </head> 
 
 <body>
