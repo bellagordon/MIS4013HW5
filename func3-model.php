@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Collapsible Card Example</title>
+    <title>Math Equation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        /* Make the text larger and center it */
+       
         .card-body {
-            font-size: 3em; /* Adjust the size as needed */
+            font-size: 3em; 
             display: flex;
-            justify-content: center; /* Horizontally center the text */
-            align-items: center; /* Vertically center the text */
-            height: 200px; /* Set a fixed height for the card to center the text properly */
+            justify-content: center; 
+            align-items: center; 
+            height: 200px; 
         }
     </style>
 </head>
