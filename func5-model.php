@@ -1,27 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en"> 
 
 <head>
-  <title>Function 5</title>
+  <title>Function 5t</title>
 </head> 
 
 <body>
   <div id="output"></div> <!-- Placeholder for the function output -->
 
   <script>
-    function repeatString(str) {
-      if (str.length === 0) {
+    function foo(i) {
+      if (i < 0) {
         return;
       }
-
-      document.getElementById("output").innerHTML += `${str}<br>`;
-
-      manipulateString(str.slice(0, -1));
-
-      document.getElementById("output").innerHTML += `${str}<br>`;
+      document.getElementById("output").innerHTML += `begin: ${i}<br>`;
+      foo(i - 1);
+      document.getElementById("output").innerHTML += `end: ${i}<br>`;
     }
-
-    repeatString("JavaScript");  // Call the function with "JavaScript"
+    foo(10);
   </script>
 </body>
+  
 </html>
