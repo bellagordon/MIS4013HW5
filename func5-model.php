@@ -3,10 +3,11 @@
 <html lang="en"> 
 
 <head>
-  <title>Function 5t</title>
+  <title>Function 5</title>
 </head> 
 
 <body>
+  <h1>Number Repeat</h1>
   <div id="output"></div> <!-- Placeholder for the function output -->
 
   <script>
