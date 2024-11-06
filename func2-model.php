@@ -27,7 +27,7 @@
     </style>
 </head>
 <body>
-    <h1>Function 1</h1>
+    <h1>Class Schedule</h1>
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col border-column">
