@@ -7,7 +7,7 @@
 <body>
   <script>
     const randomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-    console.log(random(1, 100000));
+    console.log(randomNum(1, 100000));
   </script>
   
 </body>
