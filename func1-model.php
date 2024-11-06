@@ -14,7 +14,7 @@
     </style>
 </head>
 <body> 
-    <h1>Function 1</h1>
+    <h1>Assignment Tracker</h1>
     <div class="card">
     <div class="card text-bg-primary mb-3 center-text">
         This week's assignment -
