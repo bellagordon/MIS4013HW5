@@ -10,15 +10,15 @@
   <div id="output"></div> <!-- Placeholder for the function output -->
 
   <script>
-    function foo(i) {
+    function rpt(i) {
       if (i < 0) {
         return;
       }
-      document.getElementById("output").innerHTML += `begin: ${i}<br>`;
-      foo(i - 1);
-      document.getElementById("output").innerHTML += `end: ${i}<br>`;
+      document.getElementById("output").innerHTML += `+${i}<br>`;
+      rpt(i - 1);
+      document.getElementById("output").innerHTML += `-${i}<br>`;
     }
-    foo(10);
+    rpt(10);
   </script>
 </body>
   
